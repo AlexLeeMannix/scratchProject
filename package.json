@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server/server.js",
+    "start": "node server.js",
     "webpack": "webpack",
     "gulp": "node_modules/.bin/gulp",
     "nebulis": "node ./node_modules/nebulis-endpoint/index.js"
@@ -28,11 +28,14 @@
     "express": "^4.16.3",
     "jquery": "^3.3.1",
     "node-sass": "^4.9.2",
+    "pg": "^7.4.3",
+    "pg-hstore": "^2.3.2",
     "prop-types": "^15.6.2",
     "react": "^16.2.0",
     "react-dom": "^16.3.1",
     "reactify": "^1.1.1",
     "sass-loader": "^7.0.3",
+    "sequelize": "^4.38.0",
     "style-loader": "^0.21.0",
     "vinyl-source-stream": "^2.0.0",
     "watchify": "^3.11.0",
